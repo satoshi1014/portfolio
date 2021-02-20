@@ -149,6 +149,30 @@ p.work-title {
     font-family: 'Cinzel', serif;
     margin: 120px 0 45px 0;
 }
+ul.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+li.work-items {
+    margin: 0 10px 30px 10px;
+}
+img.work-image {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border: 0.5px solid #0000005e;
+}
+ul.work-explane {
+    width: 350px;
+}
+li.work-explane-item {
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    color: #333;
+    line-height: 1.9;
+    /* text-align: center; */
+    margin: 0;
+}
 h2.contact-title {
     text-align: center;
     font-weight: 100;
